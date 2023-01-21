@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8"> 
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+    <script>
+        function pularLinha () {
+            document.write("<br><br>");
+        } //funcao e sempre uma acao que vai ser executada
+
+        document.write("A idade do Bruno<br>");
+        document.write("18" + "10"); //O js concatena e junta o texto em vez de somar
+        document.write("<br>");
+        document.write("18" + 10); //String com numero, o js converte tudo pra texto 
+        document.write("<br>");
+        document.write(18 + 10); //O js faz operacoes matematicas tranquilamente
+        document.write("<br>");
+        document.write("A media das idades?<br>");
+        document.write((20+10 +30)/3);
+        document.write("<br>");
+        document.write("Bruno nasceu em" + (2023-31) + "<br>")
+        document.write("Eu acertei: " + 15/50*100 + "%" );
+
+        var ano = 2023;
+        document.write("A idade do Bruno<br>");
+        document.write((ano -1992) + " anos");
+        document.write("A idade da Nayara<br>");
+        document.write((ano -1993) + " anos");
+        pularLinha();
+        //E se eu quiser mudar o ano?
+        document.write("Em 2025 teremos <br>");
+        pularLinha();
+        ano = 2025; // Nao precisa declarar a variavel novamente
+        document.write("A idade do Bruno <br>");
+        document.write((ano -1992) + " anos");
+        document.write("A idade da Nayara <br>");
+        document.write((ano -1993) + " anos");
+        pularLinha();
+
+        var idadeBruno = 30;
+        var idadeNayara = 29;
+        pularLinha();
+        var media = ((idadeBruno+idadeBruno+30)/3);
+        document.write('A media: ' + Math.round(media))
+        pularLinha();
+        
+        var nome = 'Bruno';
+        pularLinha();
+        
+        document.write('A idade de ' + nome + ' : ' + idadeBruno )
+
+        
+
+    </script>
+</body>
+</html>

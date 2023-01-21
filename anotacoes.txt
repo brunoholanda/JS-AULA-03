@@ -1,0 +1,6 @@
+Todo navegador possui um depurador nativo, que pode ser acessado no modo desenvolvedor, no console por exemplo
+
+No Js eu poco criar funcoes, por exemplo
+   function pularLinha () {
+            document.write("br");
+        } //funcao e sempre uma acao que vai ser executada

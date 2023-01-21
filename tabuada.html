@@ -1,0 +1,38 @@
+<meta charset="UTF-8">
+
+<script>
+     function pularLinha () {
+            document.write("<br><br>");
+        } 
+
+        function mostra (frase) {
+            document.write(frase);
+            pularLinha();
+        }
+
+        /* 
+        var multiplicador = 1;
+        while(multiplicador <= 10) {
+            mostra(7 * multiplicador);
+            multiplicador = multiplicador + 1
+        }
+        */
+
+        //Vamos escrever de outra forma:
+        //Variavel; condicao; incremento
+        
+        for(var multiplicador = 1; multiplicador <= 10; multiplicador++) {
+            mostra(7 * multiplicador);
+        }
+
+        
+        mostra("FIM!");
+
+        //Para incrementar mais 1 numa variavel
+        // var total = 0;
+        // total = total +1;
+        //Para melhor escrever podemos incrementar com 
+        //total++;
+        //multiplicador = multiplicador + 1 == multiplicador++
+
+</script>
